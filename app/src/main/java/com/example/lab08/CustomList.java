@@ -17,5 +17,12 @@ public class CustomList {
     
 
     // Will be implemented later using TDD (leave blank for now)
-    //public boolean hasCity(City city) { return true; }
+    public boolean hasCity(City city){
+        if (cities.contains(city)) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
 }
