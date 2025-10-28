@@ -1,6 +1,7 @@
 package com.example.lab08;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class CustomList {
@@ -14,6 +15,10 @@ public class CustomList {
         cities.add(city);
     }
 
+    public List<City> getCities(){
+        List<City> list = cities;
+        return list;
+    }
     
 
     // Will be implemented later using TDD (leave blank for now)
